@@ -23,23 +23,14 @@
   Yapılan literatür araştırmasında Active Directory userları üzerinden haritalandırma projelerinden büyük çoğunluğu ücretli ve kaynak kodu kapalı olduğu görülmüştür. Ücretsiz olanlarında kapalı kaynak koda sahip olduğu ile de karşılaşılmıştır. Açık kaynak kodlu proje olarak ise Bloodhound ile karşılaşılmıştır. Karmaşık sayılabilecek bir çalışma mekanizması bulunmaktadır ve powershell scriptleri, javascript, html, css dörtlüsünden oluşmaktadır. Bu projenin özgünlüğü ise mümkün olduğunca karmaşıklığın önüne geçerek python dili ile sisteme direkt bağlantı sağlanarak elde edilen bilgiler dahilinde haritanın oluşturulması hedeflenmektedir.
   
   
-  ## Amaçlar ve Hedefler 
+## Amaçlar ve Hedefler 
   
   Active Directory sistemlerinde oluşabilecek hasarları minimum düzeye indirmeyi amaçlayan ve meydana gelebilecek olan büyük hasarları erkenden tespit edip, bir grap yapısı ile senaryoları ortaya koyarak ve bu sayede erkenden harekete geçmeyi ve gözden kaçan yerleri görmemizi amaçlayan bir güvenlik aracı olmasıdır.
   
   
-  ## Yöntem ve Kullanılan Teknolojiler 
-  
+## Yöntem ve Kullanılan Teknolojiler 
   
   * Python LDAP modülü :
-'''python
-server=Server("ldap://windows-server.hunterhound.local",get_info=ALL)
-user=input("User Bilgisini Giriniz: ")
-password=prompt_toolkit.prompt("PassWord Bilgisini Giriniz: ",is_password=True)
-con=Connection(server,user, password, auto_bind=True)
-'''
-  
-  
   * Graph algoritmaları için Python Networkx modülü
 
 ![](Proje/graph.png)
