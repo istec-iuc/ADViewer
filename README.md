@@ -30,7 +30,7 @@
   
 ## Yöntem ve Kullanılan Teknolojiler 
   
-  * Python LDAP modülü :
+  * Python LDAP modülü 
   * Graph algoritmaları için Python Networkx modülü
 
 ![](Proje/graph.png)
