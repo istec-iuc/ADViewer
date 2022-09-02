@@ -1,0 +1,16 @@
+
+from collections import namedtuple
+
+
+Graph=namedtuple("Graph",[ "nodes", "edges", "is_directed"])
+
+
+def path_graph(num_nodes, is_directed=False):
+
+    nodes=range(num_nodes)
+    edges=[(i, i+1) for i in range(num_nodes-1) ]
+    return  Graph(nodes, edges, is_directed=is_directed)
+
+# p=path_graph(5)
+
+# show(p, "graph.html"
