@@ -36,7 +36,7 @@
 `  server=Server("ldap://windows-server.hunterhound.local",get_info=ALL)
   user=input("User Bilgisini Giriniz: ")
   password=prompt_toolkit.prompt("PassWord Bilgisini Giriniz: ",is_password=True)
-  con=Connection(server,user, password, auto_bind=True)`
+  con=Connection(server,user, password, auto_bind=True)`python
   
   
   * Graph algoritmaları için Python Networkx modülü
