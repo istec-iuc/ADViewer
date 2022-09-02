@@ -33,10 +33,10 @@
   
   * Python LDAP modülü :
 `
-     server=Server("ldap://windows-server.hunterhound.local",get_info=ALL)
-     user=input("User Bilgisini Giriniz: ")
-     password=prompt_toolkit.prompt("PassWord Bilgisini Giriniz: ",is_password=True)
-     con=Connection(server,user, password, auto_bind=True)
+server=Server("ldap://windows-server.hunterhound.local",get_info=ALL),
+user=input("User Bilgisini Giriniz: "),
+password=prompt_toolkit.prompt("PassWord Bilgisini Giriniz: ",is_password=True),
+con=Connection(server,user, password, auto_bind=True),
 `
   
   
