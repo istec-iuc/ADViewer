@@ -1,11 +1,11 @@
 # Active Directory Graph
 
 
-#İçindekiler
-*[Proje Özeti](#proje-özeti)
-*[Özgün Değer](#özgün-değer)
-*[Amaç ve Hedefler](#amaç-ve-hedefler)
-*[Yöntem ve yararlanılan teknolojiler](#yöntem-ve-yararlanılan-teknolojiler)
+# İçindekiler
+* [Proje Özeti](#proje-özeti)
+* [Özgün Değer](#özgün-değer)
+* [Amaç ve Hedefler](#amaç-ve-hedefler)
+* [Yöntem ve yararlanılan teknolojiler](#yöntem-ve-yararlanılan-teknolojiler)
 
 
 
