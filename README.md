@@ -2,4 +2,4 @@
 
 Active Directory Viewer
 
-![](.Proje/graph.png)
+![](Proje/graph.png)
