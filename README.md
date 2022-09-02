@@ -1,6 +1,14 @@
 # Active Directory Graph
 
 
+#İçindekiler
+*[Proje Özeti](#proje-özeti)
+*[Özgün Değer](#özgün-değer)
+*[Amaç ve Hedefler](#amaç-ve-hedefler)
+*[Yöntem ve yararlanılan teknolojiler](#yöntem-ve-yararlanılan-teknolojiler)
+
+
+
 ## Proje Özeti 
 
   Şirketlerde kullanımı yaygınlaşan Active Directory sistemi getirdiği kolaylıklar yanında gözden kaçan riskleri beraberinde getiriyor. Günümüzde her 39 saniyede bir siber saldırı gerçekleşmektedir. Bunların %94’ü e-mail üzerinden yapılan phishing yöntemi ile yapılmaktadır. Ayrıca 2020 yılı itibariyle fidye yazılımları vakaları %150 artış göstermiştir ve bunlardan en çok etkilenenler işletmeler ve iş kurumlarıdır. Bu kuruluşlar eğer Active Directory üzerine bu saldırılara maruz kalırlarsa tüm sistem tehlikeye girebilmektedir. Oluşan zarar üretimi durdurmaya ve hatta iflasa kadar sürükleyebilmektedir. Projemizin amacı burada devreye girmektedir ve oluşabilecek hasarı en aza indirmeyi amaçlar ve hatta cihazların yetki ve erişimleri üzerinden nasıl bir hasarı oluşabileceğini graph yapısı ile göstermeyi amaçlamaktadır.
